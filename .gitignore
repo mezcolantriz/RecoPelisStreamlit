@@ -1,0 +1,10 @@
+__pycache__
+.env
+.learn
+.json
+src/explore.ipynb
+src/model
+
+
+
+
