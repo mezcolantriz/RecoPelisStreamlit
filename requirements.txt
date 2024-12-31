@@ -1,9 +1,6 @@
-numpy==1.23.5
-pandas==1.5.3
-Flask==2.3.2
-gunicorn==20.1.0
-googletrans==4.0.0-rc1
-scikit-learn==1.3.0
-python-dotenv==1.0.0
-requests==2.31.0
-joblib==1.2.0
+streamlit
+pandas
+scikit-learn
+googletrans==4.0.0-rc1  # Versión estable conocida de googletrans
+requests
+python-dotenv
