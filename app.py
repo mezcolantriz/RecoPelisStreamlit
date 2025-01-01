@@ -77,6 +77,7 @@ st.markdown("""
             color: #ffffff;
             font-size: 1.2em;
             margin-top: 10px;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
         }
         .movie-links a {
             color: #ffa500;
