@@ -6,6 +6,11 @@ import requests
 import os
 from dotenv import load_dotenv
 
+
+#VER LA PÁGINA https://recopelisgit.streamlit.app/
+
+
+
 # Cargar variables de entorno
 load_dotenv()
 
@@ -74,7 +79,7 @@ st.markdown("""
             text-align: center;
         }
         .movie-title {
-            color: #ffffff;
+            color: #f4c10f;
             font-size: 1.2em;
             margin-top: 10px;
             text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
