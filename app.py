@@ -16,10 +16,12 @@ st.set_page_config(
     layout="wide"
 )
 
-# Estilos personalizados
+# Estilos personalizados con animaciones y fuentes
 st.markdown("""
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
+            font-family: 'Roboto', sans-serif;
             background-image: url('https://images.unsplash.com/photo-1524985069026-dd778a71c7b4');
             background-size: cover;
             background-attachment: fixed;
@@ -32,7 +34,8 @@ st.markdown("""
             padding: 20px;
             margin: 10px;
             text-align: center;
-            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            animation: fadeIn 1s ease-in-out;
         }
         .recommendation-box:hover {
             transform: scale(1.05);
@@ -44,6 +47,24 @@ st.markdown("""
         }
         .recommendation-box img:hover {
             transform: scale(1.1);
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .stButton > button {
+            background-color: #ffa500;
+            color: white;
+            border: none;
+            border-radius: 12px;
+            font-size: 16px;
+            padding: 10px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .stButton > button:hover {
+            background-color: #ff6347;
+            transform: scale(1.05);
+            box-shadow: 0px 4px 8px rgba(255, 99, 71, 0.6);
         }
         .title {
             color: #ffa500;
