@@ -74,7 +74,7 @@ st.markdown("""
             text-align: center;
         }
         .movie-title {
-            color: #ffa500;
+            color: #ffffff;
             font-size: 1.2em;
             margin-top: 10px;
         }
